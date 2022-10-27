@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World's best Anim-ation</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="cnv" width="800" height="600"></canvas>
+    <div class="center">
+        <canvas id="cnv" width="800" height="600"></canvas>
+    </div>
+    <div class="center">
+        <table>
+            <tbody>
+                <tr class="up">
+                    <td>
+                        <label for="down">Up</label><br>
+                        <input type="text" id="up">
+                        <br>
+                    </td>
+                </tr>
+                <tr class="down">
+                    <td>
+                        <label for="down">Down</label><br>
+                        <input type="text" id="down">
+                        <br>
+                    </td>
+                </tr>
+                <tr class="left">
+                    <td>
+                        <label for="left">Left</label><br>
+                        <input type="text" id="left">
+                        <br>
+                    </td>
+                </tr>
+                <tr class="right">
+                    <td>
+                        <label for="right">Right</label><br>
+                        <input type="text" id="right">
+                        <br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
